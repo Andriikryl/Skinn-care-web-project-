@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1340px;
+    margin: auto;
+}
+
+
+.scincare__content h1{
+    font-family: 'STSong';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 65px;
+    line-height: 98px;
+    text-align: center;
+    color: #000000;
+}
+.scincare__content h2{
+    font-family: 'Style Script';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 137px;
+    line-height: 112px;
+    text-align: center;
+    color: #68513F;
+    transform: rotate(-5.08deg);
+    padding-bottom: 40px;
+}
+.scincare__content p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    padding-bottom: 47px;
+}
+.scincare__btn{
+    display: flex;
+    justify-content: center;
+}
+.scincare__btn a{
+    padding: 13px 21px;
+    background-color: #F1EBE7;
+    border: 1px solid #DACEC6;
+    border-radius: 73px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #68513F;
+}
+.card__container{
+    display: flex;
+    justify-content: center;
+}
+.skincare__card-first .card{
+    width: 221px;
+    height: 183px;
+    position: relative;
+    top: 80px;
+    right: 150px;
+
+}
+
+.skincare__card-second .card{
+    width: 220px;
+    height: 220px;
+    position: relative;
+    top: 470px;
+    right: 300px;
+
+}
+
+.skincare__card-third .card{
+    width: 220px;
+    height: 220px;
+    position: relative;
+    top: 565px;
+    left: 420px;
+
+}
+
+.skincare__card-four .card{
+    width: 221px;
+    height: 114px;
+    position: relative;
+    top: 260px;
+    left: 280px;
+
+}
+
+.skincare__card-five .card{
+    width: 159px;
+    height: 201px;
+    position: relative;
+    top: 21px;
+  
+}
+
+.card {
+    position: relative;
+    perspective: 1000px;
+  }
+  .front, .back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+    backface-visibility: hidden;
+    border-radius: 10px;
+  }
+  .front {
+    background-color: #fff;
+  }
+  .back {
+    background-color: #68513F;
+    transform: rotateY(180deg);
+  }
+  .back__img{
+    padding: 13px 21px;
+    background-color: #F1EBE7;
+    border: 1px solid #DACEC6;
+    border-radius: 73px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #68513F;
+  }
+
+  .card:hover .front {transform: rotateY(180deg);}
+  .card:hover .back {transform: rotateY(360deg);}
