@@ -377,6 +377,7 @@ a{
 .feture .container{
     display: flex;
     justify-content: space-between;
+    padding-bottom: 200px;
 }
 
 .square{
@@ -456,6 +457,7 @@ a{
     line-height: 20px;
     text-align: center;
     color: #68513F;
+    cursor: pointer;
 }
 
 .content h3{
@@ -488,6 +490,28 @@ a{
     padding-bottom: 39px;
 }
 
+.sponsors p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 39px;
+    text-align: center;
+    color: #000000;
+    padding-bottom: 56px;
+}
+
+.sponsors__type{
+    display: flex;
+    justify-content: center;
+}
+
+.sponsors__type-img{
+    padding-right: 60px;
+}
+.sponsors{
+    padding-bottom: 200px;
+}
 
 
 
