@@ -13,6 +13,9 @@ a{
     margin: auto;
 }
 
+.Skincare{
+    padding-bottom: 240px;
+}
 
 .scincare__content h1{
     font-family: 'STSong';
@@ -149,3 +152,225 @@ a{
 
   .card:hover .front {transform: rotateY(180deg);}
   .card:hover .back {transform: rotateY(360deg);}
+
+
+.face__content{
+    width: 1340px;
+    height: 500px;
+}
+
+.face__content img{
+    width: 100%;
+}
+
+.face{
+    padding-bottom: 90px;
+}
+
+.products{
+    padding-bottom: 120px;
+}
+
+.products__title h2{
+    font-family: 'Style Script';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 137px;
+    line-height: 112px;
+    text-align: center;
+    color: #68513F;
+}
+
+.products__title h3{
+    font-family: 'STSong';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 65px;
+    line-height: 98px;
+    text-align: center;
+    color: #000000;
+    padding-bottom: 50px;
+}
+
+
+
+
+
+
+.products__staf{
+    display: grid;
+    place-items: center;
+    line-height: 1.6;
+}
+
+.products__card{
+    color: white;
+    background-image: url(../img/produscts1.jpg);
+    background-size: cover;
+    padding: 10rem 0 0;
+    max-width: 35ch;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+}
+
+.products__card-second{
+    color: white;
+    background-image: url(../img/products2.jpg);
+    background-size: cover;
+    padding: 10rem 0 0;
+    max-width: 35ch;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+}
+.products__card-second:hover{
+    transform: scale(1.05);
+}
+.products__card-second:hover .card-content{
+    transform: translateY(0);
+}
+.products__card-second:hover .card-title::after{
+    transform: scaleX(1);
+}
+.products__card:hover{
+    transform: scale(1.05);
+}
+
+.products__card-thierd{
+    color: white;
+    background-image: url(../img/products3.jpg);
+    background-size: cover;
+    padding: 10rem 0 0;
+    max-width: 35ch;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+}
+.products__card-thierd:hover{
+    transform: scale(1.05);
+}
+.products__card-thierd:hover .card-content{
+    transform: translateY(0);
+}
+.products__card-thierd:hover .card-title::after{
+    transform: scaleX(1);
+}
+
+
+.products__card-four{
+    color: white;
+    background-image: url(../img/products4.jpg);
+    background-size: cover;
+    padding: 10rem 0 0;
+    max-width: 35ch;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 500ms ease;
+}
+.products__card-four:hover{
+    transform: scale(1.05);
+}
+.products__card-four:hover .card-content{
+    transform: translateY(0);
+}
+.products__card-four:hover .card-title::after{
+    transform: scaleX(1);
+}
+
+
+.card-content{
+    --padding: 1.5rem;
+    padding: var(--padding);
+    background:linear-gradient(
+        hsl(0 0% 0% / 0),
+        hsl(20 0% 0% / 0.3) 20%,
+        hsl(0 0% 0% / 1)
+        );
+    transform: translateY(60%);
+    transition: transform 500ms ease;
+}
+
+.products__card:hover .card-content{
+    transform: translateY(0);
+}
+
+.card-title{
+    position: relative;
+    width: max-content;
+    font-family: 'STSong';
+    font-style: normal;
+}
+
+.card-title::after{
+    content: "";
+    position: absolute;
+    height: 4px;
+    left: calc(var(--padding)* -1);
+    bottom: -2px;
+    width: calc(100% + var(--padding));
+    background: #68513F;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 500ms ease;
+}
+
+.products__card:hover .card-title::after{
+    transform: scaleX(1);
+}
+
+.button{
+    cursor: pointer;
+    padding: .8em 5.75em;
+    background-color: #DACEC6;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #68513F;
+    border-radius: 0.25rem;
+}
+
+.card-body{
+    padding-top: 10px;
+    padding-bottom: 20px;
+
+}
+
+.button:hover,
+.button:focus{
+    background-color:rosybrown;
+}
+
+.card__product-cost{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.card__product-cost span{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #DACEC6;
+}
+
+.products__staf{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
