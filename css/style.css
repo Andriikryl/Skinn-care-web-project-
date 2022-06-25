@@ -59,11 +59,76 @@ li{
 .discover .container{
     display: flex;
     justify-content: space-between;
+    position: relative;
 }
 
-.discover__content{
-    
+.discover__img h1{
+    position: absolute;
+    top: 200px;
+    left: 30px;
+    font-family: 'STSong';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 88px;
+    line-height: 126px;
+    color: #DACEC6;
+    cursor: pointer;
+    border-right: 5px solid #DACEC6;
+    animation: typewriter 4s steps(44) normal, blinkTextCursor 0.5s infinite;
+    white-space: nowrap;
+    overflow: hidden;
 }
+
+@keyframes typewriter{
+    from{
+        width: 0;
+    }
+    to {
+        width: 1079px;
+    }
+}
+
+@keyframes blinkTextCursor{
+    from{
+        border-right-color: #DACEC6;
+    }
+    to{
+        border-right-color: transparent;
+    }
+}
+
+
+
+.discover__btn{
+    display: inline-block;
+    padding: 12px 21px;
+    background-color: #DACEC6;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #68513F;
+    position: relative;
+    top: 500px;
+    left: 30px;
+}
+
+.discover__content h3{
+    font-family: 'Style Script';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 175px;
+    line-height: 182px;
+    color: #68513F;
+    position: relative;
+    top: 400px;
+    left: 430px;
+}
+
+
+
+
 
 
 
